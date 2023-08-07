@@ -25,4 +25,4 @@ const imageHTML = images
   )
   .join("");
 
-galery.insertAdjacentHTML("beforeend", imagesHTML);
+gallery.insertAdjacentHTML("beforeend", imagesHTML);

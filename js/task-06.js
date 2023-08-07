@@ -3,7 +3,7 @@ const requiredLength = parseInt(validationInput.dataset.length);
 
 validationInput.addEventListener("blur", function () {
   const inputValue = validationInput.value;
-  const isValid = validationInput.length === requiredLength;
+  const isValid = inputValue.length === requiredLength;
 
   if (isValid) {
     validationInput.classList.add("valid");
